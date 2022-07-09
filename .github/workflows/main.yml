@@ -42,4 +42,4 @@ jobs:
           protocol: ftps
           security: strict
           server-dir: docs/
-          local-dir: ./static/
+          local-dir: ./site/
