@@ -39,7 +39,7 @@ jobs:
           server: ftp52.world4you.com
           username: ${{ secrets.FTP_ACCOUNT }}
           password: ${{ secrets.FTP_ACCOUNT_PW }}
-          protocol: ftps
+          protocol: ftp
           security: strict
           server-dir: docs/
           local-dir: ./site/
