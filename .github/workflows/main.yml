@@ -36,7 +36,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ftp52.world4you.com
+          server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_ACCOUNT }}
           password: ${{ secrets.FTP_ACCOUNT_PW }}
           protocol: ftp
