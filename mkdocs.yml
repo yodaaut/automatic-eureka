@@ -1,5 +1,19 @@
+---
 site_name: My Docs
 site_url: http://www.net-vision.at
 
 theme:
   name: material
+  palette:
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: black
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: black
